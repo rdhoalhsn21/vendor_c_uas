@@ -56,4 +56,6 @@ app.listen(port, () => {
     console.log(`Endpoint: http://localhost:${port}/`);
 });
 
+module.exports = app
+
 // Catatan: Tipe data harga (base_price & tax) adalah Number/Integer, sesuai dengan contoh listing.
